@@ -1,0 +1,35 @@
+.card-validator {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+.cards {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.card {
+  width: 40px;
+  opacity: 0.3;
+}
+.card.active {
+  opacity: 1;
+}
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
